@@ -10,8 +10,8 @@
 
 .App .App-noun,
 .App .App-paragraph {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 40px;
   animation: 0.3s fadeinup cubic-bezier(0.78, 0.1, 0.19, 0.91);
   opacity: 0;
   animation-fill-mode: forwards;
@@ -115,7 +115,7 @@
   color: #F18805;
   animation: .3s fadeinup .2s ease-in-out;
   animation-fill-mode: forwards;
-  bottom: 100px;
+  bottom: 60px;
   opacity: 0;
   transform: translateX(-50%) translateY(-50%);
 }
