@@ -30,7 +30,7 @@ class Wrap extends Component {
                 <Noun color="blue" text="aspiring&nbsp;" />
                 <Noun color="blue" text="polymath&nbsp;" />
                 <Paragraph text=" and&nbsp;" />
-                <Noun color="purple" text="mild yogi&nbsp;" />
+                <Noun identifier="yogi" color="purple" text="mild yogi&nbsp;" />
             </div>
         )
     }
@@ -41,7 +41,7 @@ class Wrap extends Component {
 class Noun extends Component {
     render() {
         return (
-            <h3 className={`App-noun App-noun--${ this.props.color }`}>{this.props.text}</h3>
+            <h3 id={`${ this.props.identifier }`} className={`App-noun App-noun--${ this.props.color }`}>{this.props.text}</h3>
         )
     }
 }
