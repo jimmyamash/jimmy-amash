@@ -20,7 +20,7 @@ class Wrap extends Component {
     render() {
         return (
             <div className="App-wrap">
-                <Paragraph text="Pradeep&nbsp;" />
+                <Paragraph text="Jimmy&nbsp;" />
                 <Paragraph text="Amash&nbsp;" />
                 <Paragraph text="is&nbsp;" />
                 <Paragraph text="a&nbsp;" />
