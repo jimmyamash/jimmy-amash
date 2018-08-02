@@ -8,6 +8,12 @@ $color-blue: #17BEBB;
 $color-purple: #995D81;
 $color-orange: #F18805;
 
+// helpers
+
+.hide {
+    display: none;
+}
+
 .App {
 
     font-family: $font;

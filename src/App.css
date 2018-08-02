@@ -1,3 +1,7 @@
+.hide {
+  display: none;
+}
+
 .App {
   font-family: "Lato", serif;
   font-size: 1.2em;
