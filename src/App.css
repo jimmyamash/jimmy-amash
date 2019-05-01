@@ -14,14 +14,27 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a {
   font-weight: 300;
   line-height: normal;
 }
 
+h3,
+a {
+  font-size: 2.3rem;
+}
+
+@media (max-width: 991px) {
+  h3,
+  a {
+    font-size: 1.9rem;
+  }
+}
+
 .App {
   font-family: "Lato", serif;
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 
 .App .App-paragraph {
