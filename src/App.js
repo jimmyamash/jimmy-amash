@@ -4,11 +4,9 @@ import classnames from 'classnames';
 import logo from './logo.svg';
 import './App.css';
 
-// ReactDOM.render((
-//     <BrowserRouter>
-//         <App />
-//     </BrowserRouter>
-// ), document.getElementById('root'));
+// todo create pages with router
+// todo create states
+// todo remove CatchWrapSocial and other Catch stuff, just convert to wraps and links
 
 // app
 
