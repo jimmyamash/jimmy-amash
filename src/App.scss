@@ -87,7 +87,7 @@ h6 {
     .App-wrap {
         text-align: center;
         justify-content: center;
-        animation: .3s fadeinup cubic-bezier(.78,.1,.19,.91);
+        animation: 1s fadeinup cubic-bezier(.78,.1,.19,.91);
         opacity: 0;
         animation-fill-mode: forwards;
         padding: 15px;

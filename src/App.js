@@ -20,7 +20,7 @@ class App extends Component {
                 <Wrap type="image" size="col-md-12" color="transparent" title="false"/>
                 <Wrap type="headline" text="Jimmy Amash is a developer, product maker, aspiring polymath and mild yogi" size="col-md-12" color="transparent" title="true" />
                 <Wrap type="social" size="col-md-12" color="white" title="false" />
-                <Wrap type="link" text="Download Resume" icon="true" iconname="download" linkto="https://standardresume.co/api/gpdf?id=-K8C0JpRd8QYZXOxT-01&filename=james-amash-resume.pdf" size="col-md-6" color="transparent" title="false" />
+                <Wrap type="link" text="View Resume" icon="true" iconname="file" linkto="https://standardresume.co/api/gpdf?id=-K8C0JpRd8QYZXOxT-01&filename=james-amash-resume.pdf" size="col-md-6" color="transparent" title="false" />
                 <Wrap type="headline" text="Built with &hearts; & React" size="col-md-6" color="transparent" title="true" />
             </div>
         </div>
@@ -42,7 +42,7 @@ class Wrap extends Component {
                         <Image size="medium" source="me.jpg" />
                     }
                     {this.props.type == "link" &&
-                        <Link text={this.props.text} linkto={this.props.linkto} icon={this.props.icon} iconname={this.props.iconname} />
+                        <Link target="_blank" text={this.props.text} linkto={this.props.linkto} icon={this.props.icon} iconname={this.props.iconname} />
                     }
                     {this.props.type == "social" &&
                         <div>
@@ -98,7 +98,7 @@ class Image extends Component {
 class Link extends Component {
     render() {
         return (
-            <a href={this.props.linkto} className={`App-link App-link--block`}>
+            <a href={this.props.linkto} target="_blank" className={`App-link App-link--block`}>
             {this.props.text}
             {this.props.icon == "true" &&
                 <i className={`fa fa-${ this.props.iconname }`}></i>
