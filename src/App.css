@@ -3,9 +3,10 @@
 }
 
 body {
+  min-height: 100vh;
   background: #FF512F;
-  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
-  background: linear-gradient(to right, #DD2476, #FF512F);
+  background: -webkit-linear-gradient(to top right, #DD2476, #FF512F);
+  background: linear-gradient(to top right, #DD2476, #FF512F);
 }
 
 body,

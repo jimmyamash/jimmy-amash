@@ -39,9 +39,10 @@ $image-large: 200px;
 }
 
 body {
+    min-height: 100vh;
     background: $color-primary;
-    background: -webkit-linear-gradient(to right, $color-secondary, $color-primary);
-    background: linear-gradient(to right, $color-secondary, $color-primary);
+    background: -webkit-linear-gradient(to top right, $color-secondary, $color-primary);
+    background: linear-gradient(to top right, $color-secondary, $color-primary);
 }
 body,
 h1,

@@ -49,7 +49,6 @@ class Wrap extends Component {
                             <CatchWrapSocial social="envelope" url="mailto:jimmyamash@gmail.com" />
                             <CatchWrapSocial social="twitter" url="https://twitter.com/jimmyamash"/>
                             <CatchWrapSocial social="facebook" url="https://facebook.com/jimmyamash"/>
-                            <CatchWrapSocial social="medium" url="https://medium.com/@jimmyamash"/>
                             <CatchWrapSocial social="product-hunt" url="https://producthunt.com/@jimmyamash"/>
                             <CatchWrapSocial social="github" url="https://github.com/jimmyamash"/>
                             <CatchWrapSocial social="dribbble" url="https://dribbble.com/jimmyamash"/>
@@ -123,7 +122,7 @@ class Paragraph extends Component {
 class CatchWrapSocial extends Component {
     render() {
         return (
-            <a target="_blank" className={`App-wrap__social-link App-wrap__social-link--${ this.props.social } fa fa-${ this.props.social }`} href={`${ this.props.url }`}></a>
+            <a target="_blank" className={`App-wrap__social-link App-wrap__social-link--${ this.props.social } fa fa-2x fa-${ this.props.social }`} href={`${ this.props.url }`}></a>
         )
     }
 }
