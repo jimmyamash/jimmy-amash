@@ -110,11 +110,6 @@ a {
             @include box-shadow($shadow);
             @include border-radius($radius);
         }
-        @media (max-width: 991px) {
-            .App-wrap__inner {
-                padding: 20px;
-            }
-        }
 
         &.App-wrap--white {
             .App-wrap__inner {
@@ -133,6 +128,17 @@ a {
 
                 a {
                     color: $color-white;
+                }
+            }
+        }
+
+        @media (max-width: 991px) {
+            .App-wrap__inner {
+                padding: 15px;
+            }
+            &.App-wrap--transparent {
+                .App-wrap__inner {
+                    padding: 15px;
                 }
             }
         }

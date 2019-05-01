@@ -84,12 +84,6 @@ a {
   border-radius: 5px;
 }
 
-@media (max-width: 991px) {
-  .App .App-wrap .App-wrap__inner {
-    padding: 20px;
-  }
-}
-
 .App .App-wrap.App-wrap--white .App-wrap__inner {
   background: #FFFFFF;
 }
@@ -106,6 +100,15 @@ a {
 
 .App .App-wrap.App-wrap--transparent .App-wrap__inner a {
   color: #FFFFFF;
+}
+
+@media (max-width: 991px) {
+  .App .App-wrap .App-wrap__inner {
+    padding: 15px;
+  }
+  .App .App-wrap.App-wrap--transparent .App-wrap__inner {
+    padding: 15px;
+  }
 }
 
 .App .App-wrap:first-child {
