@@ -17,7 +17,8 @@ class App extends Component {
             <div className="row">
                 <Wrap type="image" size="col-md-12" color="transparent" title="false"/>
                 <Wrap type="headline" text="Jimmy Amash is a developer, product maker, aspiring polymath and mild yogi" size="col-md-12" color="transparent" title="true" />
-                <Wrap type="link" text="View Resume" icon="true" iconname="file" linkto="https://standardresume.co/jimmyamash" size="col-md-12" color="transparent" title="false" />
+                <Wrap type="headline" text="Currently:" size="col-md-12" color="transparent" title="true" />
+                <Wrap type="link" text="@Acorns" icon="true" iconname="file" linkto="https://twitter.com/acorns" size="col-md-12" color="transparent" title="false" />
                 <Wrap type="social" size="col-md-12" color="white" title="false" />
                 <Wrap type="headline" text="Built with React" size="col-md-12" color="transparent" title="true" />
             </div>
