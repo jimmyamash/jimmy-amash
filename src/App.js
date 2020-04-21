@@ -37,7 +37,7 @@ class Wrap extends Component {
                         <Title text={this.props.text} />
                     }
                     {this.props.type == "image" &&
-                        <Image size="medium" source="me.jpg" />
+                        <Image size="medium" source="me.png" />
                     }
                     {this.props.type == "link" &&
                         <Link target="_blank" text={this.props.text} linkto={this.props.linkto} icon={this.props.icon} iconname={this.props.iconname} />

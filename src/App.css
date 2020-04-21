@@ -4,9 +4,9 @@
 
 body {
   min-height: 100vh;
-  background: #FF512F;
-  background: -webkit-linear-gradient(to top right, #DD2476, #FF512F);
-  background: linear-gradient(to top right, #DD2476, #FF512F);
+  background: #1fb3ed;
+  background: -webkit-gradient(linear, left bottom, right top, from(#116ac5), to(#1fb3ed));
+  background: linear-gradient(to top right, #116ac5, #1fb3ed);
 }
 
 body,
@@ -69,10 +69,14 @@ a {
 
 .App .App-wrap {
   text-align: center;
-  justify-content: center;
-  animation: 1s fadeinup cubic-bezier(0.78, 0.1, 0.19, 0.91);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: 1s fadeinup cubic-bezier(0.78, 0.1, 0.19, 0.91);
+          animation: 1s fadeinup cubic-bezier(0.78, 0.1, 0.19, 0.91);
   opacity: 0;
-  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
   padding: 15px;
 }
 
@@ -80,7 +84,6 @@ a {
   padding: 60px;
   -webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
-  -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 
@@ -89,13 +92,14 @@ a {
 }
 
 .App .App-wrap.App-wrap--white .App-wrap__inner a {
-  color: #FF512F;
+  color: #1fb3ed;
 }
 
 .App .App-wrap.App-wrap--transparent .App-wrap__inner {
   padding: 30px;
   background: transparent;
-  box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.14);
 }
 
 .App .App-wrap.App-wrap--transparent .App-wrap__inner a {
@@ -112,43 +116,53 @@ a {
 }
 
 .App .App-wrap:first-child {
-  animation-delay: 0.0;
+  -webkit-animation-delay: 0.0;
+          animation-delay: 0.0;
 }
 
 .App .App-wrap:nth-child(2) {
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
 }
 
 .App .App-wrap:nth-child(3) {
-  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
 }
 
 .App .App-wrap:nth-child(4) {
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 
 .App .App-wrap:nth-child(5) {
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 
 .App .App-wrap:nth-child(6) {
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 
 .App .App-wrap:nth-child(7) {
-  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 
 .App .App-wrap:nth-child(8) {
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
 }
 
 .App .App-wrap:nth-child(9) {
-  animation-delay: 0.8s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
 }
 
 .App .App-wrap:nth-child(10) {
-  animation-delay: 0.9s;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
 }
 
 .App .App-wrap .App-wrap__social-link {
@@ -159,42 +173,95 @@ a {
   width: 100px;
   border-radius: 50%;
   border: 4px solid #FFFFFF;
-  box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
+}
+
+@-webkit-keyframes fadeinup {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 @keyframes fadeinup {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes levitate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  30% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
 }
 
 @keyframes levitate {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
   30% {
     opacity: 1;
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes fadeoutdown {
+  from {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
 }
 
 @keyframes fadeoutdown {
   from {
     opacity: 1;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   to {
     opacity: 0;
-    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
 }
+/*# sourceMappingURL=App.css.map */
