@@ -84,7 +84,7 @@ a {
   padding: 60px;
   -webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .App .App-wrap.App-wrap--white .App-wrap__inner {
