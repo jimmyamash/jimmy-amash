@@ -19,7 +19,7 @@ class App extends Component {
                 <Wrap type="headline" text="Jimmy Amash is a developer, product maker, aspiring polymath and mild yogi" size="col-md-12" color="transparent" title="true" />
                 <Wrap type="link" text="Currently @Acorns" icon="false" iconname="file" linkto="https://twitter.com/acorns" size="col-md-12" color="transparent" title="false" />
                 <Wrap type="social" size="col-md-12" color="white" title="false" />
-                <Wrap type="headline" text="Built with React" size="col-md-12" color="transparent" title="true" />
+                {/* <Wrap type="headline" text="Built with React" size="col-md-12" color="transparent" title="true" /> */}
             </div>
         </div>
     );
