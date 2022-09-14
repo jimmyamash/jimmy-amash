@@ -4,9 +4,7 @@
 
 body {
   min-height: 100vh;
-  background: #1fb3ed;
-  background: -webkit-gradient(linear, left bottom, right top, from(#116ac5), to(#1fb3ed));
-  background: linear-gradient(to top right, #116ac5, #1fb3ed);
+  background: black;
 }
 
 body,
@@ -34,8 +32,12 @@ a {
 }
 
 .App {
-  font-family: "Lato", serif;
+  font-family: "Halant", serif;
   font-size: 1.6rem;
+}
+
+.App div {
+  padding: 20px;
 }
 
 .App .App-paragraph {
@@ -56,10 +58,6 @@ a {
 .App a:active .fa,
 .App a:hover .fa {
   margin-left: 10px;
-}
-
-.App h3 {
-  color: #FFFFFF;
 }
 
 .App .App-paragraph {
@@ -84,7 +82,7 @@ a {
   padding: 60px;
   -webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .App .App-wrap.App-wrap--white .App-wrap__inner {
@@ -92,14 +90,14 @@ a {
 }
 
 .App .App-wrap.App-wrap--white .App-wrap__inner a {
-  color: #1fb3ed;
+  color: black;
 }
 
 .App .App-wrap.App-wrap--transparent .App-wrap__inner {
   padding: 30px;
   background: transparent;
-  -webkit-box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.14);
-          box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 0px 0px 0px 0 rgba(136, 95, 95, 0.14);
+          box-shadow: 0px 0px 0px 0 rgba(136, 95, 95, 0.14);
 }
 
 .App .App-wrap.App-wrap--transparent .App-wrap__inner a {
@@ -171,10 +169,10 @@ a {
 
 .App .App-wrap .App-wrap__image--medium {
   width: 100px;
-  border-radius: 50%;
-  border: 4px solid #FFFFFF;
-  -webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
-          box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
+}
+
+.App .App-wrap .App-wrap__image--small {
+  width: 75px;
 }
 
 @-webkit-keyframes fadeinup {

@@ -16,9 +16,9 @@ class App extends Component {
         <div className="App container">
             <div className="row">
                 <Wrap type="image" size="col-md-12" color="transparent" title="false"/>
-                <Wrap type="headline" text="Jimmy Amash is a developer, product maker, aspiring polymath and mild yogi" size="col-md-12" color="transparent" title="true" />
-                <Wrap type="link" text="Currently @Acorns" icon="false" iconname="file" linkto="https://twitter.com/acorns" size="col-md-12" color="transparent" title="false" />
-                <Wrap type="social" size="col-md-12" color="white" title="false" />
+                {/* <Wrap type="headline" text="Jimmy Amash is a developer, product maker, aspiring polymath and mild yogi" size="col-md-12" color="transparent" title="true" />
+                <Wrap type="link" text="Currently @Acorns" icon="false" iconname="file" linkto="https://twitter.com/acorns" size="col-md-12" color="transparent" title="false" /> */}
+                <Wrap type="content" size="col-md-12" color="white" title="false" />
                 {/* <Wrap type="headline" text="Built with React" size="col-md-12" color="transparent" title="true" /> */}
             </div>
         </div>
@@ -37,19 +37,22 @@ class Wrap extends Component {
                         <Title text={this.props.text} />
                     }
                     {this.props.type == "image" &&
-                        <Image size="medium" source="me.png" />
+                        <Image size="small" source="me.svg" />
                     }
                     {this.props.type == "link" &&
                         <Link target="_blank" text={this.props.text} linkto={this.props.linkto} icon={this.props.icon} iconname={this.props.iconname} />
                     }
-                    {this.props.type == "social" &&
+                    {this.props.type == "content" &&
                         <div>
-                            <CatchWrapSocial social="envelope" url="mailto:jimmyamash@gmail.com" />
-                            <CatchWrapSocial social="twitter" url="https://twitter.com/jimmyamash"/>
-                            <CatchWrapSocial social="facebook" url="https://facebook.com/jimmyamash"/>
-                            <CatchWrapSocial social="product-hunt" url="https://producthunt.com/@jimmyamash"/>
-                            <CatchWrapSocial social="github" url="https://github.com/jimmyamash"/>
-                            <CatchWrapSocial social="dribbble" url="https://dribbble.com/jimmyamash"/>
+                            <div>
+                                <h2>The Manifesto</h2>
+                                <h3>Seek more by seeking less, as those who chase time never reach its tail, as the tail was only a manifestation within constraints of the reality you thought was real.</h3>
+                                <h3>You are where you need to be. That of which you lack, you already have, you are only not experiencing it.</h3>
+                            </div>
+                            <div>
+                                <CatchWrapSocial social="envelope" url="mailto:jimmyamash@gmail.com" />
+                                <CatchWrapSocial social="instagram" url="https://instagram.com/jimmyamash"/>
+                            </div>
                         </div>
                     }
                 </div>

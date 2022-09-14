@@ -1,11 +1,11 @@
 // variables
 
-$font: "Lato", serif;
+$font: 'Halant', serif;
 $font-size: 1.6rem;
 $color-black: #3D3D3D;
 $color-white: #FFFFFF;
 $color-transparent: transparent;
-$color-primary: rgba(31,179,237,1);
+$color-primary: rgba(0,0,0,1);
 $color-secondary: rgba(17,106,197,1);
 $color-red: #E4572E;
 $color-green: #76B041;
@@ -13,9 +13,9 @@ $color-blue: #17BEBB;
 $color-purple: #995D81;
 $color-orange: #F18805;
 $shadow: 3px 3px 20px 0 rgba(0,0,0,0.14);
-$shadow-none: 0px 0px 0px 0 rgba(0,0,0,0.14);
-$radius: 10px;
-$image-small: 50px;
+$shadow-none: 0px 0px 0px 0 rgba(136, 95, 95, 0.14);
+$radius: 50px;
+$image-small: 75px;
 $image-medium: 100px;
 $image-large: 200px;
 // todo need to fix body font sizes, control through rems
@@ -41,8 +41,6 @@ $image-large: 200px;
 body {
     min-height: 100vh;
     background: $color-primary;
-    background: -webkit-linear-gradient(to top right, $color-secondary, $color-primary);
-    background: linear-gradient(to top right, $color-secondary, $color-primary);
 }
 body,
 h1,
@@ -67,6 +65,9 @@ a {
 }
 
 .App {
+    div {
+        padding: 20px;
+    }
 
     font-family: $font;
     font-size: $font-size;
@@ -86,16 +87,9 @@ a {
             margin-left: 10px;
         }
     }
-    h3 {
-
-        color: $color-white;
-
-    }
     .App-paragraph {
-
         margin-top: 0;
         margin-bottom: 0;
-
     }
     .App-wrap {
         text-align: center;
@@ -180,11 +174,10 @@ a {
 
         .App-wrap__image--medium {
             width: $image-medium;
-            border-radius: 50%;
-            border: 4px solid $color-white;
-            box-shadow: $shadow;
         }
-
+        .App-wrap__image--small {
+            width: $image-small;
+        }
     }
 }
 @keyframes fadeinup {
