@@ -18,7 +18,7 @@ class App extends Component {
                 <Wrap type="image" size="col-md-12" color="transparent" title="false"/>
                 {/* <Wrap type="headline" text="Jimmy Amash is a developer, product maker, aspiring polymath and mild yogi" size="col-md-12" color="transparent" title="true" />
                 <Wrap type="link" text="Currently @Acorns" icon="false" iconname="file" linkto="https://twitter.com/acorns" size="col-md-12" color="transparent" title="false" /> */}
-                <Wrap type="content" size="col-md-12" color="white" title="false" />
+                <Wrap type="content" size="col-md-12" color="black" title="false" />
                 {/* <Wrap type="headline" text="Built with React" size="col-md-12" color="transparent" title="true" /> */}
             </div>
         </div>
@@ -48,9 +48,9 @@ class Wrap extends Component {
                                 <h2>The Manifesto</h2>
                                 <h3>Seek more by seeking less, as those who chase time never reach its tail, as the tail was only a manifestation within constraints of the reality you thought was real.</h3>
                                 <h3>You are where you need to be. That of which you lack, you already have, you are only not experiencing it.</h3>
-                                <h3>Currently: <a href='https://acorns.com'>@Acorns</a></h3>
-                                <h3>Co-founder: <a href='https://trysidedoor.com'>@SideDoor</a></h3>
-                                <h3>Advisor: <a href='https://shuplug.com'>@ShuPlug</a></h3>
+                                <h3>Currently<a class='block-link' href='https://acorns.com'>@Acorns</a></h3>
+                                <h3>Co-founder<a class='block-link' href='https://trysidedoor.com'>@SideDoor</a></h3>
+                                <h3>Advisor<a class='block-link' href='https://shuplug.com'>@ShuPlug</a></h3>
                             </div>
                             <div>
                                 <CatchWrapSocial social="envelope" url="mailto:jimmyamash@gmail.com" />

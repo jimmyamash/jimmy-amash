@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="285px" height="242px" viewBox="0 0 285 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Path 17</title>
+<svg width="327px" height="278px" viewBox="0 0 327 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path 17 Copy 5</title>
     <g id="Brands" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-        <g id="Artboard" transform="translate(-357.000000, -379.000000)" stroke="#FFFFFF" stroke-width="27">
-            <path d="M451.5,393 C451.602641,496.132221 451.653961,547.698332 451.653961,547.698332 C451.653961,547.698332 451.5,607 401.5,607 C360.5,607 360.5,547.5 401.5,547.5 C428.833333,547.5 466.5,547.5 514.5,547.5 C540.124268,547.5 567.290935,547.5 596,547.5 C639.063598,547.5 639.063598,606.919527 596,606.919527 C567.290935,606.919527 551.290935,587.086193 548,547.419527" id="Path-17"></path>
+        <g id="Artboard" transform="translate(-327.000000, -374.000000)" stroke="#000000" stroke-width="31.0373832">
+            <g id="Group" transform="translate(273.000000, 273.000000)">
+                <path d="M161.522136,117 C162.651396,235.666667 163.216026,295 163.216026,295 C163.216026,295 165.375,363 105.716026,363 C58.5946579,363 58.5946579,295 105.716026,295 C137.130272,295 174.296939,295 217.216026,295 C257.735208,295 294.494799,295 327.494799,295 C376.994799,295 376.994799,363 327.494799,363 C293.828132,363 274.994799,340.333333 270.994799,295" id="Path-17-Copy-5"></path>
+            </g>
         </g>
     </g>
 </svg>
