@@ -79,7 +79,7 @@ a {
 }
 
 .App .App-wrap .App-wrap__inner {
-  padding: 60px;
+  padding: 30px;
   -webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.14);
   border-radius: 50px;

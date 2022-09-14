@@ -100,7 +100,7 @@ a {
         padding: 15px;
 
         .App-wrap__inner {
-            padding: 60px;
+            padding: 30px;
             @include box-shadow($shadow);
             @include border-radius($radius);
         }
