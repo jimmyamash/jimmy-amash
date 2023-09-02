@@ -46,10 +46,9 @@ class Wrap extends Component {
                         <div>
                             <div>
                                 <h2>The Manifesto</h2>
-                                <h3>Seek more by seeking less, as those who chase time never reach its tail, as the tail was only a manifestation within constraints of the reality you created.</h3>
                                 <h3>You are where you need to be. That of which you lack, you already have, you are only not experiencing it.</h3>
-                                <h3>Currently<a class='block-link' href='https://acorns.com'>@Acorns</a></h3>
-                                <h3>Co-founder<a class='block-link' href='https://trysidedoor.com'>@SideDoor</a></h3>
+                                <h3>Currently<a class='block-link' hlsref='https://acorns.com'>@Acorns</a></h3>
+                                <h3>Co-founder<a class='block-link' href='https://trysidedoor.com'>@Sidedoor</a></h3>
                                 <h3>Advisor<a class='block-link' href='https://shuplug.com'>@ShuPlug</a></h3>
                             </div>
                             <div>
