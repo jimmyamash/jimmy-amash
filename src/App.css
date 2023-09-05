@@ -1,0 +1,279 @@
+.hide {
+  display: none;
+}
+
+body {
+  min-height: 100vh;
+  background: white;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-weight: 300;
+  line-height: normal;
+}
+
+h3,
+a {
+  font-size: 2.3rem;
+}
+
+@media (max-width: 991px) {
+  h3,
+  a {
+    font-size: 1.9rem;
+  }
+}
+
+.App {
+  font-family: "Halant", serif;
+  font-size: 1.6rem;
+}
+
+.App .block-link {
+  display: block;
+}
+
+.App div {
+  padding: 20px 0;
+}
+
+.App .App-paragraph {
+  display: inline-block;
+}
+
+.App a,
+.App a:focus,
+.App a:visited,
+.App a:active,
+.App a:hover {
+  text-decoration: none;
+}
+
+.App a .fa,
+.App a:focus .fa,
+.App a:visited .fa,
+.App a:active .fa,
+.App a:hover .fa {
+  margin-left: 10px;
+}
+
+.App .App-paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.App .App-wrap {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: 1s fadeinup cubic-bezier(0.78, 0.1, 0.19, 0.91);
+          animation: 1s fadeinup cubic-bezier(0.78, 0.1, 0.19, 0.91);
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  padding: 15px;
+}
+
+.App .App-wrap .App-wrap__inner {
+  padding: 30px;
+  -webkit-box-shadow: 3px 3px 80px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 3px 80px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.App .App-wrap.App-wrap--white .App-wrap__inner {
+  background: #FFFFFF;
+}
+
+.App .App-wrap.App-wrap--white .App-wrap__inner a {
+  color: white;
+}
+
+.App .App-wrap.App-wrap--black .App-wrap__inner {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.App .App-wrap.App-wrap--black .App-wrap__inner a {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.App .App-wrap.App-wrap--transparent .App-wrap__inner {
+  padding: 30px;
+  background: transparent;
+  -webkit-box-shadow: 0px 0px 0px 0 rgba(136, 95, 95, 0.14);
+          box-shadow: 0px 0px 0px 0 rgba(136, 95, 95, 0.14);
+}
+
+.App .App-wrap.App-wrap--transparent .App-wrap__inner a {
+  color: #FFFFFF;
+}
+
+@media (max-width: 991px) {
+  .App .App-wrap .App-wrap__inner {
+    padding: 15px;
+  }
+  .App .App-wrap.App-wrap--transparent .App-wrap__inner {
+    padding: 15px;
+  }
+}
+
+.App .App-wrap:first-child {
+  -webkit-animation-delay: 0.0;
+          animation-delay: 0.0;
+}
+
+.App .App-wrap:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.App .App-wrap:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.App .App-wrap:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.App .App-wrap:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.App .App-wrap:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.App .App-wrap:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.App .App-wrap:nth-child(8) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.App .App-wrap:nth-child(9) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.App .App-wrap:nth-child(10) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.App .App-wrap .App-wrap__social-link {
+  margin: 10px;
+}
+
+.App .App-wrap .App-wrap__image--medium {
+  width: 100px;
+}
+
+.App .App-wrap .App-wrap__image--small {
+  width: 75px;
+}
+
+@-webkit-keyframes fadeinup {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadeinup {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes levitate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  30% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes levitate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  30% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes fadeoutdown {
+  from {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes fadeoutdown {
+  from {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+/*# sourceMappingURL=App.css.map */
