@@ -54,7 +54,7 @@ class Wrap extends Component {
                             </div>
                             <div>
                                 <CatchWrapSocial social="envelope" url="mailto:jimmyamash@gmail.com" />
-                                <CatchWrapSocial social="instagram" url="https://instagram.com/jimmyamash"/>
+                                {/* <CatchWrapSocial social="instagram" url="https://instagram.com/jimmyamash"/> */}
                             </div>
                         </div>
                     }
