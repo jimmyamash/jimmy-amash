@@ -49,7 +49,7 @@ class Wrap extends Component {
                                 {/* <h3>Seek more by seeking less, as those who chase time never reach its tail, as the tail was only a manifestation within constraints of the reality you created.</h3> */}
                                 <h3>You are where you need to be. That of which you lack, you already have, you are only not experiencing it.</h3>
                                 <h3>Currently<a class='block-link' href='https://tryrobin.com'>@Robin</a></h3>
-                                <h3>Advisor<a class='block-link' href='https://viafunnelcake.com'>@Funnelcake</a></h3>
+                                <h3>Advisor<a class='block-link' href='https://funnelcakeclub.com'>@Funnelcake</a></h3>
                             </div>
                             <div>
                                 <CatchWrapSocial social="envelope" url="mailto:jimmyamash@gmail.com" />
