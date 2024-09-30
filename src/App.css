@@ -4,7 +4,7 @@
 
 body {
   min-height: 100vh;
-  background: white;
+  background: ivory;
 }
 
 body,
@@ -54,6 +54,7 @@ a {
 .App a:active,
 .App a:hover {
   text-decoration: none;
+  color: ivory;
 }
 
 .App a .fa,
@@ -94,7 +95,7 @@ a {
 }
 
 .App .App-wrap.App-wrap--white .App-wrap__inner a {
-  color: white;
+  color: ivory;
 }
 
 .App .App-wrap.App-wrap--black .App-wrap__inner {
@@ -103,7 +104,7 @@ a {
 }
 
 .App .App-wrap.App-wrap--black .App-wrap__inner a {
-  color: #FFFFFF;
+  color: ivory;
   font-weight: bold;
 }
 
